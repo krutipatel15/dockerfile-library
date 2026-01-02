@@ -24,15 +24,6 @@ It is designed as a reference implementation for DevOps and Cloud Engineers.
 - No secrets baked into the image
 - Reproducible and deterministic builds
 
-## Project Structure
-
-.
-├── app/
-│   └── main.py
-├── requirements.txt
-├── Dockerfile
-└── .dockerignore
-
 ## Dockerfile Highlights
 
 Practice                         Reason
