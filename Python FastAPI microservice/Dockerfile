@@ -1,5 +1,6 @@
-# Builder Stage
+# syntax=docker/dockerfile:1.6
 
+# Builder Stage
 
 FROM python:3.11.9-slim-bookworm AS builder
 
@@ -23,7 +24,6 @@ RUN pip install --upgrade pip \
 
 
 # Runtime Stage
-
 
 FROM gcr.io/distroless/python3-debian12 AS runtime
 
